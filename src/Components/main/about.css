@@ -1,7 +1,7 @@
 .About{
     height: auto;
     /* border: 2px solid white; */
-    background-color: rgb(26, 25, 25);
+    background-color: rgb(31, 29, 29);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,7 +10,7 @@
 .About .about-div{
     height: 100vh;
     /* border: 1px solid white; */
-    width: 700px;
+    width: 750px;
     padding: 12%;
 }
 #pic2{

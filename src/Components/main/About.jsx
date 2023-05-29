@@ -14,7 +14,7 @@ function About() {
                     I belongs to Allahabad(UP). <br />
                     I have done B.tech in Mechanical Engineering
                     form Dr. APJ ABDUL KALAM TECHNICAL UNIVERSITY in 2020
-                    Now i am learned <br /> JAVA Full Stack .</p>
+                    Now i have learned <br /> JAVA Full Stack .</p>
             </div>
 
         </div>

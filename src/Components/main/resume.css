@@ -1,0 +1,28 @@
+.resumepic{
+    text-align: center;
+    height: 500px;
+}
+.resume-div{
+    padding: 50px;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.resume-div button{
+    margin: 20px;
+    height: 50px;
+    width: 250px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px white;
+}
+.resume-div button:hover{
+    height: 50px;
+    width: 250px;
+    border: 2px solid white;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+}
