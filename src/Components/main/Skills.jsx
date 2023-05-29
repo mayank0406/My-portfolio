@@ -1,7 +1,7 @@
 import React from 'react'
 import "./skills.css";
 import html from "../../Assets/html.png"
-import css from "../../Assets/css.png"
+import css from "../../Assets/css1.png"
 import javascript from "../../Assets/javascript.png"
 import reactjs from "../../Assets/React.png"
 import java from "../../Assets/java.png"

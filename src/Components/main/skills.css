@@ -21,6 +21,10 @@
     transform: scale(1.05);
     transition: 2s;
 }
+.skills h2{
+    padding: 10px;
+    font-weight: bold;
+}
 .skills img{
     height: 150px;
 }
