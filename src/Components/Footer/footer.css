@@ -1,0 +1,22 @@
+.Footer{
+    height: 100px;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-links{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-links li{
+    list-style: none;
+}
+.profile-links li a i{
+    color: white;
+    font-size: 25px;
+
+}

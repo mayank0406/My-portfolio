@@ -1,0 +1,31 @@
+.home{
+    height: 92vh;
+    /* border: 1px solid white; */
+    display: flex
+}
+.indiv{
+    height: 92vh;
+    width: 50vw;
+    /* border: 2px solid white; */
+    padding:  12%;
+    
+}
+.indiv p{
+    font-size: 40px;
+    color: cadetblue;
+}
+.indiv h1{
+    font-size: 30px;
+}
+.indiv .my-links{
+    padding: 20px;
+    display: flex;
+    list-style: none;
+}
+.indiv .my-links li i{
+    padding: 20px;
+    font-size: 40px;
+}
+#img1{
+    border-radius: 50%;
+}

@@ -1,19 +1,20 @@
 import React from 'react'
-
+import "./footer.css";
+import { Link } from 'react-router-dom';
 function Footer() {
-  return (
-    <div className='Footer'>
-        <div>
-      <h1>Made by : - @Mayank</h1>
-        </div>
+    return (
+        <div className='Footer'>
+            <div>
+                <h3>made by : ©Mayank  <i class='bx bxs-heart' ></i> </h3>
+            </div>
 
-<div>
-    <li><a href="/"><i className="fa-brands fa-linkedin"></i></a></li>
-    <li><a href="/"><i className="fa-brands fa-twitter"></i></a></li>
-    <li><a href="/"><i className="fa-brands fa-github"></i></a></li>
-</div>
-    </div>
-  )
+            <div className='profile-links'>
+                <li><Link to=""><i className='bx bxl-linkedin-square'></i></Link></li>
+                <li><Link to="/https://github.com/mayank0406"><i className='bx bxl-github'></i></Link></li>
+                <li><Link to="/"><i className='bx bxl-instagram-alt'></i></Link></li>
+            </div>
+        </div>
+    )
 }
 
 export default Footer
