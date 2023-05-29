@@ -8,11 +8,15 @@ import java from "../../Assets/java.png"
 import sql from "../../Assets/sql.png"
 import hibernate from "../../Assets/hibernate.png"
 import spring from "../../Assets/spring.png"
+import bootstrap from "../../Assets/bootstrap.png"
+import tailwind from "../../Assets/taiwind.png"
+import mongodb from "../../Assets/MongoDB.png"
+import springboot from "../../Assets/springboot.png"
 
 function Skills() {
     const skills = [
         {name:"HTML5",
-        logo: html    
+        logo: html   
         },
         {name:"CSS3",
         logo: css  
@@ -23,6 +27,18 @@ function Skills() {
         {name:"React Js",
         logo: reactjs 
         },
+        {name:"Bootstrap",
+        logo: bootstrap
+        },
+        {name:"Tailwind",
+        logo: tailwind
+        },
+        {name:"Spring",
+        logo: spring
+        },
+        {name:"SpringBoot",
+        logo: springboot
+        },
         {name:"Java",
         logo: java
         },
@@ -32,9 +48,10 @@ function Skills() {
         {name:"Hibernate",
         logo: hibernate
         },
-        {name:"Spring",
-        logo: spring
+        {name:"Mongodb",
+        logo: mongodb
         }
+        
 
     ]
   return (
@@ -47,8 +64,10 @@ function Skills() {
                 <div className='skills'>
                    <div className='skill'>
                     <img src={skill.logo} alt="" />
-                    <h2>{skill.name}</h2>
-                   </div> 
+                   </div>
+                   <div className='heading' >
+                    <h3>{skill.name}</h3>
+                    </div> 
                 </div>
                 
             )
