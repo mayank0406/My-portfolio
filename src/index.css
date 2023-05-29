@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;900&family=Bruno+Ace+SC&family=Cabin:wght@700&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;900&family=Bruno+Ace+SC&family=Cabin:wght@700&family=Lobster+Two&family=Rowdies&family=Sigmar&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+}
+/* In app.js */
+#main-div{
+  height: 100vh;
+  width: auto;
+  /* background-image: url("https://img.freepik.com/premium-photo/young-backpacker-with-looking-enjoying-sunrise-top-mountain_623166-25.jpg"); */
+  /* background-image: url("https://img.freepik.com/premium-photo/silhouette-love-against-sunset_29277-411.jpg"); */
+  /* background: url("https://img.freepik.com/free-photo/silhouette-shot-man-standing-cliff-looking-sunset_181624-35159.jpg?t=st=1683480412~exp=1683481012~hmac=d5291c070e0df3bc957638e42646962a55927d77a390bfb88040d47044aa2937"); */
+  /* background: url("https://wallpapers.com/images/hd/orange-hill-mountains-sunset-silhouette-d8x3dg2qbrvv7q3e.jpg"); */
+  background: url("https://wallpapershome.com/images/wallpapers/sunset-1920x1080-forest-mountains-4k-20322.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+/* ------------------Navbar Component----------------- */
+#nav-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+#logo-name{
+  color: rgb(255, 255, 255);
+  padding: 30px 60px ;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+  
+}
+#logo-name h1{
+  font-family: 'Bruno Ace SC', cursive;
+  font-size: 50px;
+}
+#nav-list{
+  position: absolute;
+  left: 50%;
+}
+#nav-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#nav-list ul li{
+  padding: 20px;
+  list-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Rowdies', cursive;
+
+}
+#nav-list ul li:hover{
+  transform: scale(1.12);
+}
+#nav-list ul li a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+#nav-list ul li a:hover{
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+/*---------------- Myimg Component ----------------*/
+#my-img-div{
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#mid-part1 #my-img{
+  width: 45%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+
+}
+#mid-part1 h1{
+  text-align: center;
+  border-radius: 50%;
+  color: rgb(189, 8, 92);
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 7px rgb(255, 255, 255);
+}
+#mid-part1 h2{
+  text-align: center;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  text-shadow: 0px 0px 7px black;
+}
+#main-div h3{
+color: white;
+margin-top: 60px 0px;
+}
+#scroll{
+  position: absolute;
+  left: 10px;
+  top: 92vh;
+}
+
+
+/*----------------- About page ---------------------*/
+#about-div{
+  margin-top: 133px;
+  width: 100vw;
+  height: auto;
+  background-color:  #29445D;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+#about-img{
+  text-align: center;
+  width: 605px;
+  height: 100vh;
+  padding-top: 70px;
+
+
+}
+#about-img img{
+  border-radius: 20px;
+}
+#about-content{
+  width: 625px;
+  height: auto;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
+  word-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.826);
+}
+#about-content h2{
+  padding: 5px;
+}
+#about-content p{
+  padding: 10px;
+}
+#details{
+  font-size: 20px;
+  height: auto;
+  width: 550px;
+  margin-top: 10px;
+  margin: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px white;
+  border-radius: 20px;
+  line-height: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#download-btn{
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  border: none;
+  box-shadow: 0px 0px 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+#download-btn:hover{
+  cursor: pointer;
+  color: red;
+}
+
+/* -----------------Technology component------------------------- */
+#Technology-div{
+  width: 100vw;
+  height: auto;
+  background-color: #D62828;
+  padding: 20px;
+}
+#Technology-div h1{
+  padding: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+.tech-img{
+  border: 2px solid rgb(101, 39, 39);
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  width: 280px;
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+#tech{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 30px 0px;
+}
+#Technology-div img{
+  height: 200px;
+}
+#Technology-div  h2{
+text-align: center;
+margin: 10px 0px;
+font-size: 25px;
+font-weight: bold;
+color: white;
+}
+.tech-box:hover{
+  transform: scale(1.05);
+  transition: 0.8s  ease-in-out;
+}
+
+/* Projects Components */
+#project-comp{
+  background-color: #F77F00;
+}
+#project-comp h1{
+  height: auto;
+  font-size: 45px;
+  text-align: center;
+}
+#project{
+  border: 2px solid blue;
+}
+#inner-project{
+  width: 400px;
+  border: 2px solid black;
+}
+#inner-project img{
+  border-radius: 20px;
+  width: 350px;
+}
