@@ -21,6 +21,7 @@
     width: 250px;
     border: 2px solid white;
     box-shadow: 0px 0px 10px white;
+    transition: 0.2s;
 }
 .resume-div button:hover{
     height: 50px;

@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 function Header() {
   return (
-    <div className='fixed w-full'>
+    <div className='z-50 fixed w-full'>
       <Navbar/>
     </div>
   )

@@ -3,9 +3,9 @@ import "./contact.css";
 
 function Contact() {
     return (
-        <>
+        <div className='contact-div'>
             <h1 id='header'>Contact Me</h1>
-            <div className='contact-div'>
+            <div className='Inner-div' >
                 <div>
                     <p>
                     MAYANK SINGH <br />
@@ -23,7 +23,7 @@ function Contact() {
                     <button>Submit</button>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

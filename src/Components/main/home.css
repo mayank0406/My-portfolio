@@ -29,4 +29,9 @@
 }
 #img1{
     border-radius: 50%;
+    border: 10px solid white;
+
+}
+#img1:hover{
+    box-shadow: 0px 0px 50px white;
 }

@@ -1,15 +1,18 @@
 .contact-div{
-    height: 60vh;
+    padding: 20px;
+    height: auto;
+    background-color: rgb(30, 30, 30);
+}
+.Inner-div{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 .contact-div p{
     font-size: 20px;
 }
 .from-div{
-    /* border: 2px solid white; */
     border-radius: 50px;
     text-align: center;
     width: 500px;
@@ -32,11 +35,17 @@
     text-align: center;
     color: cadetblue;
 }
+.from-div textarea{
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
 .from-div button{
     height: 45px;
     width: 150px;
     border: 1px solid white;
     font-weight: bold;
+    margin-top: 10px;
 }
 .from-div button:hover{
     height: 45px;
@@ -46,4 +55,5 @@
     border-radius: 10px;
     font-weight: bold;
     box-shadow: 0px 0px 10px white;
+    transition: 0.2s;
 }
