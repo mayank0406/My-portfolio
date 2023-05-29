@@ -2,9 +2,14 @@
     text-align: center;
     height: 500px;
 }
+.resumepic:hover{
+    text-align: center;
+    height: 500px;
+    box-shadow: 0px 0px 20px wheat;
+}
 .resume-div{
     padding: 50px;
-    height: 80vh;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -1,0 +1,31 @@
+.skills-div{
+    background-color: rgb(24, 23, 23);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+    /* border: 2px solid white; */
+
+}
+.skills{
+    margin-top: 13px;
+    padding: 40px 100px;
+    border-radius: 20px;
+    height: 250px;
+    width: 350px;
+    box-shadow: 0px 0px 20px white;
+}
+.skills:hover{
+    transform: scale(1.05);
+    transition: 2s;
+}
+.skills img{
+    height: 150px;
+}
+#heading{
+    font-size: 40px;
+    text-align: center;
+    color: cadetblue;
+}

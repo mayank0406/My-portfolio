@@ -1,7 +1,7 @@
 .About{
     height: auto;
     /* border: 2px solid white; */
-    background-color: rgb(31, 29, 29);
+    background-color: rgb(16, 16, 16);
     display: flex;
     justify-content: space-around;
     align-items: center;
