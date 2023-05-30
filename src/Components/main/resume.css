@@ -1,15 +1,16 @@
 .resumepic{
     text-align: center;
-    height: 500px;
+    height: 400px;
 }
 
 .resume-div{
     padding: 50px;
-    height: auto;
+    height: 800px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    background-color: rgb(11, 11, 11);
 }
 .resume-div button{
     margin: 20px;

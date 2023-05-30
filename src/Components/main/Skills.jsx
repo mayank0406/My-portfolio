@@ -55,18 +55,21 @@ function Skills() {
 
     ]
   return (
-    <>
-        <h1 id='heading'>Skills</h1>
+    <div data-aos="zoom-in" id='Skills' >
+      <h1 data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"  
+          id='heading'>Skills</h1>
     <div className='skills-div'>
           {
             skills.map((skill)=>{ 
-            return( 
-                <div className='skills'>
+              return( 
+                <div data-aos="zoom-out" className='skills'>
                    <div className='skill'>
-                    <img src={skill.logo} alt="" />
+                    <img data-aos="zoom-in" src={skill.logo} alt="" />
                    </div>
                    <div className='heading' >
-                    <h3>{skill.name}</h3>
+                    <h3 data-aos="zoom-out">{skill.name}</h3>
                     </div> 
                 </div>
                 
@@ -74,7 +77,7 @@ function Skills() {
             })
           }  
     </div>
-    </>
+    </div>
   )
 }
 

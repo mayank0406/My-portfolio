@@ -9,9 +9,9 @@ function Footer() {
             </div>
 
             <div className='profile-links'>
-                <li><Link to=""><i className='bx bxl-linkedin-square'></i></Link></li>
-                <li><Link to="/https://github.com/mayank0406"><i className='bx bxl-github'></i></Link></li>
-                <li><Link to="/"><i className='bx bxl-instagram-alt'></i></Link></li>
+                <li><Link target="_blank" to="https://www.linkedin.com/in/mayank-singh-21208a190/"><i className='bx bxl-linkedin-square'></i></Link></li>
+                <li><Link target="_blank" to="https://github.com/mayank0406"><i className='bx bxl-github'></i></Link></li>
+                <li><Link target="_blank" to="https://www.instagram.com/mayankmusiclover/"><i className='bx bxl-instagram-alt'></i></Link></li>
             </div>
         </div>
     )

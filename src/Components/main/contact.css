@@ -11,11 +11,13 @@
 }
 .contact-div p{
     font-size: 20px;
+    padding: 20px;
 }
 .from-div{
     border-radius: 50px;
     text-align: center;
     width: 500px;
+    display: inline-block;
 }
 .from-div input{
     margin: 10px;

@@ -3,10 +3,10 @@ import "./resume.css"
 import resumepic from "../../Assets/resume.jpg"
 function Resume() {
   return (
-    <div className='resume-div'>
-      <img className='resumepic' src={resumepic} alt="" />
+    <div id='Resume' className='resume-div'>
+      <img data-aos="flip-left" className='resumepic' src={resumepic} alt="" />
       <div>
-        <button>Click To download Resume</button>
+        <button data-aos="zoom-in-up" >Click To download Resume</button>
       </div>
     </div>
   )

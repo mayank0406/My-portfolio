@@ -1,15 +1,15 @@
 .home{
     height: auto;
-    /* border: 1px solid white; */
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .indiv{
     height: 92vh;
     width: 750px;
-    /* border: 2px solid white; */
     padding:  12%;
+    padding-top: 200px;
 }
 .indiv p{
     font-size: 40px;

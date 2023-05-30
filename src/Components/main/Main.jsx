@@ -5,17 +5,23 @@ import About from './About'
 import Resume from './Resume'
 import Skills from './Skills'
 import Contact from './Contact'
-import Project from './Project'
+import Projects from './Projects'
+
 
 function Main() {
   return (
     <div className='main'>
+     
       <Home/>
       <About/>
       <Resume/>
       <Skills/>
-      <Project/>
+      <Projects/>
       <Contact/>
+      
+      
+      {/* <Project/> */}
+      
     </div>
   )
 }

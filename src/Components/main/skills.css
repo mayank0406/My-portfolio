@@ -1,12 +1,11 @@
 .skills-div{
     background-color: rgb(24, 23, 23);
     height: auto;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: auto;
-    /* border: 2px solid white; */
-
+    align-items: center;
 }
 .skills{
     margin-top: 13px;
@@ -39,3 +38,5 @@
 .bxl-react{
     color: white;
 }
+
+
