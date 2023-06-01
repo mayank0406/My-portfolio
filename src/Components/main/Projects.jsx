@@ -189,7 +189,7 @@ function Projects() {
                 </div>
                 <div>
                   <a
-                    href="https://weathera-36ab1d.netlify.app/"
+                    href="https://weather-877dby4u8-mayank0406.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -198,7 +198,7 @@ function Projects() {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Yasowant/Weather_App"
+                    href="https://github.com/mayank0406/Weather-app"
                     target="_blank"
                     rel="noreferrer"
                   >
