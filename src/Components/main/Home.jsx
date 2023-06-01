@@ -19,8 +19,8 @@ function Home() {
                 <li><Link target="_blank" to="https://www.instagram.com/mayankmusiclover/"><i className='bx bxl-instagram-alt'></i></Link></li>
                 </div>
             </div>
-            <div data-aos="fade-left" className="indiv">
-                <img id="img1" src={pic1} alt=""/>
+            <div  className="indiv">
+                <img  id="img1" src={pic1} alt=""/>
             </div>
         </div>
   )

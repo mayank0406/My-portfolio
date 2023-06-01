@@ -52,7 +52,7 @@ function Projects() {
                 </div>
                 <div>
                   <a
-                    href="https://redux-shopping-cart-sage.vercel.app/"
+                    href="https://home-shopping-cart.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -61,7 +61,7 @@ function Projects() {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Yasowant/Redux_shopping_cart"
+                    href="https://github.com/mayank0406/HomeShoppingCart"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -109,7 +109,7 @@ function Projects() {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Yasowant/MovieSearch"
+                    href="https://github.com/mayank0406/ott"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -233,7 +233,7 @@ function Projects() {
                 </div>
                 <div>
                   <a
-                    href="https://benevolent-granita-d6e253.netlify.app/"
+                    href="https://instagram-signup-virid.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -242,7 +242,7 @@ function Projects() {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Yasowant/instaf"
+                    href="https://github.com/mayank0406/InstagramSignup"
                     target="_blank"
                     rel="noreferrer"
                   >

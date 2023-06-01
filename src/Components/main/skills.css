@@ -1,11 +1,12 @@
 .skills-div{
     background-color: rgb(24, 23, 23);
     height: auto;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 40px;
 }
 .skills{
     margin-top: 13px;
