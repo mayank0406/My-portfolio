@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className='Footer'>
             <div>
-                <h3>made by : ©Mayank  <i class='bx bxs-heart' ></i> </h3>
+                <h3>made by : ©Mayank  <i className='bx bxs-heart' ></i> </h3>
             </div>
 
             <div className='profile-links'>
