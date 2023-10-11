@@ -7,7 +7,7 @@ function Resume() {
     <div id='Resume' className='resume-div'>
       <img data-aos="flip-left" className='resumepic' src={resumepic} alt="" />
       <div>
-        <button data-aos="zoom-in-up" ><a target='_blank' download="mayank_resume" href={resume}>Click To download Resume</a></button>
+        <button data-aos="zoom-in-up" ><a target='blank' download="mayank_resume" href={resume}>Click To download Resume</a></button>
       </div>
     </div>
   )

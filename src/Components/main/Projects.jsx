@@ -1,25 +1,22 @@
 import React from "react";
 import "./projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
+
 import {
-  SiBlockchaindotcom,
   SiHtml5,
-  SiMaterialui,
-  SiChai,
   SiReact,
-  SiEthereum,
-  SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
+  // SiEthereum,
+  // SiExpress,
+  // SiSocketdotio,
+  // SiTailwindcss,
   SiReactrouter,
-  SiJavascript,
+  // SiJavascript,
   SiMongodb,
   SiNodedotjs,
   SiCss3,
   SiBootstrap,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
+// import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 import Weather from "./../../Assets/Weather.png";
 import Shopping from "./../../Assets/Shopping.png";
